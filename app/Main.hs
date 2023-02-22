@@ -7,8 +7,7 @@ double x = x + x
 
 main :: IO ()
 main = do
-    putStrLn "Please enter a number:"
-    input <- getLine
-    let num = read input :: Int
+    putStrLn "Hello and welcome"
+    let num = 13
     let result = double num
-    putStrLn ("Double of " ++ input ++ " is " ++ show result)
+    putStrLn ("Double of " ++ show result)
